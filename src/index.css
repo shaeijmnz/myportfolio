@@ -1,0 +1,37 @@
+:root {
+  --cream: #f6eee4;
+  --ink: #2a2522;
+  --navy: #0a2a78;
+  --navy-deep: #061a52;
+  --orange: #ff8a1f;
+  --sticker: #233a7a;
+  --holo: #67d6ff;
+  font-family: 'Outfit', 'Segoe UI', Arial, sans-serif;
+  color: var(--ink);
+  background: var(--navy-deep);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html.is-loading,
+html.is-loading body {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 4px;
+}
